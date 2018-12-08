@@ -58,7 +58,17 @@ misclassification errors for the 4 methods mentioned above.
 Experiment 2 looked at hyperparameter settings for LASSO least
 squares regression with coordinate descent. Experiment 3 looked
 at the weights as the lambda value for LASSO least squares
-regression with coordinate descent changed.
+regression with coordinate descent changed. Experiment 4 looked
+at using vanilla neural networks and comparing those results to
+the previous experiments. Experiment 5 looked at using K-Means to
+see if our data naturally form groups soley of those of the same
+party. Experiment 6 looked at using random forest and comparing
+those results to the previous experiments.
+
+Eventually, using random forest produced the best validation
+accuracy and that model is saved in `exp6.model`. It can be
+loaded with `exp6load.py` to see the training and validation
+accuracy or be used to classify the test set with `test.py`.
 
 
 ## License
