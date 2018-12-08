@@ -2,7 +2,7 @@
 
 This project explores how a representative’s voting patterns on
 key issues can determine the ideology of said representative.
-We will use 16 key votes as determined by the Congressional
+We will use the votes as determined by the Congressional
 Quarterly Almanac and learn how to associate the voting records
 to classify representatives as either being a Democrat or a
 Republican.
@@ -17,12 +17,12 @@ color palettes for the graphs.
 
 This project uses the congressional voting records from Volume
 XL of the Congressional Quarterly Almanac that includes votes
-for each member of the U.S. House of Representative on 16 key
+for each member of the U.S. House of Representative on key
 issues. This data set was retrieved from the[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records).
 Each representative is represented by a vector with the first
 element being either "democrat" or "republican" and the rest
 being either "y," "n," or "?," corresponding to a yes vote, no
-vote, or other respectively for the 16 votes. To process the
+vote, or other respectively for the votes. To process the
 data, for each representative I made it's label "1" if they are
 a democrat or "-1" if they are a republican.
 
